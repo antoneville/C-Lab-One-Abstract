@@ -1,0 +1,10 @@
+C:\projects\C-Lab-One-Abstract\bin\Debug\netcoreapp2.0\C-Lab-One-Abstract.deps.json
+C:\projects\C-Lab-One-Abstract\bin\Debug\netcoreapp2.0\C-Lab-One-Abstract.runtimeconfig.json
+C:\projects\C-Lab-One-Abstract\bin\Debug\netcoreapp2.0\C-Lab-One-Abstract.runtimeconfig.dev.json
+C:\projects\C-Lab-One-Abstract\bin\Debug\netcoreapp2.0\C-Lab-One-Abstract.dll
+C:\projects\C-Lab-One-Abstract\bin\Debug\netcoreapp2.0\C-Lab-One-Abstract.pdb
+C:\projects\C-Lab-One-Abstract\obj\Debug\netcoreapp2.0\C-Lab-One-Abstract.csproj.CoreCompileInputs.cache
+C:\projects\C-Lab-One-Abstract\obj\Debug\netcoreapp2.0\C-Lab-One-Abstract.AssemblyInfoInputs.cache
+C:\projects\C-Lab-One-Abstract\obj\Debug\netcoreapp2.0\C-Lab-One-Abstract.AssemblyInfo.cs
+C:\projects\C-Lab-One-Abstract\obj\Debug\netcoreapp2.0\C-Lab-One-Abstract.dll
+C:\projects\C-Lab-One-Abstract\obj\Debug\netcoreapp2.0\C-Lab-One-Abstract.pdb
