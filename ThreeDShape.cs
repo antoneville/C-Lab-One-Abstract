@@ -1,29 +1,38 @@
 ﻿using System;
 
-namespace C_Lab_One_Abstract
+namespace Object
 {
+    //Implementing an abstract class
     abstract class ThreeDShape
     {
-        //Default to private - just using it for good practice
-        private Shape type;
+        //public read-only property for Sphere
+        public readonly Sphere sphere;
 
-    }
+        //Overloaded Constructor
+        public ThreeDShape (Sphere s)
+        {
+            sphere = s;
+        }
 
-    class Shape {
-        private Cylinder c;
-        private Sphere s;
-        private Cone co;
-    }
+        //Default Constructor
+        public ThreeDShape ()
+        {
 
-    class Cylinder {
+        }
 
-    }
+        //Overriding the ToString method that is inherited from System.Object
+        public override string ToString() 
+        {
+            string sphereInfo = String.Format("The Sphere: {0}", this.sphere);
+            return sphereInfo;
+        }
 
-    class Sphere {
-        
-    }
-
-    class Cone {
-
+        protected void testInstances() 
+        {
+            //Creating an instance
+            Sphere tOne = new Sphere();
+            //Testing the method
+            tOne.ToString();
+        }
     }
 }

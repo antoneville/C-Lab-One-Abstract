@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace C_Lab_One_Abstract
+namespace Shape
 {
-    class Program
+    class Sphere : ThreeDShape
     {
-        static void Main(string[] args)
+        public double radius
         {
-            Console.WriteLine("Hello World!");
+            get { return radius;}
+            set { radius = xx;}
         }
     }
 }
