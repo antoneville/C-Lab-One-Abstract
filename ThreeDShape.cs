@@ -27,12 +27,7 @@ namespace Object
             return sphereInfo;
         }
 
-        protected void testInstances() 
-        {
-            //Creating an instance
-            Sphere tOne = new Sphere();
-            //Testing the method
-            tOne.ToString();
-        }
+        public abstract double calcVolume();
+        
     }
 }
