@@ -7,7 +7,12 @@ namespace Object
     class Sphere : ThreeDShape
     {
         //ReadWrite Property to Store radius
-        public double radius { get; set; }
+        public double radius;
+        public double Radius
+        {  
+            get {return radius;}
+            set {radius = value;}
+        }
     
         public Sphere (double radiusSet) 
         {
@@ -26,13 +31,16 @@ namespace Object
         public override string ToString() 
         {
             return String.Format("Sphere Information: \nRadius: {0} \nVolume: {1}",this.radius, this.calcVolume());
-        }  
-
-        static void testing() 
+        }
+        public static void Main()
         {
-            Sphere fe = new Sphere(26.4);
+            Sphere fe = new Sphere { radius = 26.4};
+            Sphere g = new Sphere { radius = 54.2};
             Console.WriteLine(fe);
-            fe.calcVolume();
-        }    
+            Console.WriteLine(g);
+            Console.WriteLine(g.Radius);
+            Sphere r = new Sphere { radius = 34};
+            Console.WriteLine(g.calcVolume());
+        }
     }
 }

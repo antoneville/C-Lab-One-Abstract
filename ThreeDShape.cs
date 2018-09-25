@@ -28,6 +28,5 @@ namespace Object
         }
 
         public abstract double calcVolume();
-        
     }
 }
